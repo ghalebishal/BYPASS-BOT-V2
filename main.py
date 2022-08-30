@@ -5,13 +5,13 @@ with open('token.txt', 'r') as f:
  TOKEN = f.read()
 
 def start(update, context):
-    update.message.reply_text("Hello, this e Link Modifier bot. \nYou can bypass the link using this bot. \nOwner - @alvescz")
+    update.message.reply_text("Hello, thie Link Modifier bot. \nYou can bypass the link using this bot. \nOwner - @alvescz")
     
 def help(update, context):
    update.message.reply_text("""
    the following commands are available
 /start -> Welcome Message
-
+gg
 /help -> all helpful command list
 
 /adf -> bypass adf.ly link
